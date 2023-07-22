@@ -1,128 +1,328 @@
-<<<<<<< HEAD
-.circle{
+body{
+   
+    background: repeating-radial-gradient(rgb(193, 30, 30), rgb(172, 101, 159));
+    
+    background-repeat: no-repeat;
+    height: 640px;
+}
+.circle {
     background-color: black;
     width: 400px;
     height: 400px;
     border-radius: 50%;
     border: 1px solid solid;
     position: relative;
+    left: 35%;
+    top:20%;
     animation-name: rotate;
-}
-.line{
-    height: 2px;
-    width: 400px;
-    background: white;
-    position: absolute;
-    top: 49%;
-    
-}
-
-
-
-.index-2{
-    transform: rotate(22.5deg);
    
 }
-.index-3{
+
+.line {
+    height: 2px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.109);
+    position: absolute;
+    top: 49%;
+
+}
+
+
+
+.index-2 {
+    transform: rotate(22.5deg);
+
+}
+
+.index-3 {
     transform: rotate(45deg);
 }
-.index-4{
+
+.index-4 {
     transform: rotate(67.5deg);
 }
-.index-5{
+
+.index-5 {
     transform: rotate(90deg);
 }
-.index-6{
+
+.index-6 {
     transform: rotate(112.5deg);
 }
-.index-7{
+
+.index-7 {
     transform: rotate(135deg);
 }
-.index-8{
-    transform: rotate(158deg);
-} */
 
-استایل توپ
-/* .ball {
+.index-8 {
+    transform: rotate(158deg);
+}
+
+
+.ball1 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: blue;
     position: absolute;
-    top: 0;
+    top: -200px;
     left: 50%;
-    margin-left: -10px; نصف عرض توپ به منظور مرکز کردن آن
-    animation: ballMovement 5s infinite linear; حرکت توپ با طول 5 ثانیه
-    z-index: 4;
-} */
-
-
-/* @keyframes ballMovement {
-    0% {
-        top: 0;
-    }
-    50% {
-        top: 90%; توپ به پایین حرکت می‌کند
-    }
-    100% {
-        top: 0;
-    }
+    margin-left: -10px;
+    animation: ballMovement1 4s infinite linear 0ms;
+    
+    z-index: 2;
 }
 
-
-
-=======
-.circle{
-    background-color: black;
-    width: 400px;
-    height: 400px;
+.ball2 {
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    border: 1px solid solid;
-    position: relative;
-    animation-name: rotate;
-}
-.line{
-    height: 2px;
-    width: 400px;
-    background: white;
+    background-color: blue;
     position: absolute;
-    top: 49%;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement2 4s infinite linear 257ms;
+    
+    z-index: 2;
+}
+
+.ball3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement3 4s infinite linear 514ms;
+    
+    z-index: 2;
+}
+
+.ball4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement4 4s infinite linear 771ms;
+    
+    z-index: 2;
+}
+
+.ball5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement5 4s infinite linear 1028ms;
+    
+    z-index: 2;
+}
+
+.ball6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement6 4s infinite linear 1285ms;
+    z-index: 2;
     
 }
 
-
-@keyframes rotate{
-
-    1%{
-        transform: rotate(20deg);
-        
-    }
-    100%{
-        transform: 90deg;
-        background: red;
-    }
+.ball7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement7 4s infinite linear 1542ms;
+    z-index: 2;
+    
 }
-.index-2{
-    transform: rotate(22.5deg);
+.ball8 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    margin-left: -10px;
+    animation: ballMovement8 4s infinite linear 1810ms;
+    z-index: 2;
    
 }
-.index-3{
-    transform: rotate(45deg);
-}
-.index-4{
-    transform: rotate(67.5deg);
-}
-.index-5{
-    transform: rotate(90deg);
-}
-.index-6{
-    transform: rotate(112.5deg);
-}
-.index-7{
-    transform: rotate(135deg);
-}
-.index-8{
-    transform: rotate(158deg);
+
+
+@keyframes ballMovement1 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
 }
 
->>>>>>> 5901566d94400ed0e8a7a92ba497e9ddefb02c94
+@keyframes ballMovement2 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
+
+@keyframes ballMovement3 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
+
+@keyframes ballMovement4 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
+
+@keyframes ballMovement5 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
+@keyframes ballMovement6 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
+@keyframes ballMovement7 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
+@keyframes ballMovement8 {
+    0% {
+        top: -200px;
+
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: 190px;
+    }
+    75%{
+        top:-10px
+    }
+    100%{
+        top:-200px
+    }
+    
+}
