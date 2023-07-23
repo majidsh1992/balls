@@ -1,27 +1,32 @@
 body{
    
-    background: repeating-radial-gradient(rgb(193, 30, 30), rgb(172, 101, 159));
+    background: repeating-radial-gradient(rgb(193, 30, 30), rgb(225, 198, 220));
+    
     
     background-repeat: no-repeat;
     height: 640px;
 }
 .circle {
-    background-color: black;
+    background-image:;
+    /* background-color: black; */
     width: 400px;
     height: 400px;
     border-radius: 50%;
     border: 1px solid solid;
     position: relative;
-    left: 35%;
+    left: 30%;
     top:20%;
-    animation-name: rotate;
+    box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14),
+		0px 0px 19px 6px rgba(0,0,0,0.03),
+		0px 0px 26px 12px rgba(0,0,0,0.14),
+		0px 0px 29px 12px rgba(0,0,0,0.14);
    
 }
 
 .line {
     height: 2px;
     width: 400px;
-    background: rgba(255, 255, 255, 0.109);
+    background: rgba(119, 115, 115, 0);
     position: absolute;
     top: 49%;
 
@@ -31,7 +36,7 @@ body{
 
 .index-2 {
     transform: rotate(22.5deg);
-
+   
 }
 
 .index-3 {
@@ -63,7 +68,7 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(248, 248, 250);
     position: absolute;
     top: -200px;
     left: 50%;
@@ -77,35 +82,35 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(244, 244, 248);
     position: absolute;
     top: -200px;
     left: 50%;
     margin-left: -10px;
     animation: ballMovement2 4s infinite linear 257ms;
     
-    z-index: 2;
+    z-index: 3;
 }
 
 .ball3 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(244, 244, 248);
     position: absolute;
     top: -200px;
     left: 50%;
     margin-left: -10px;
     animation: ballMovement3 4s infinite linear 514ms;
     
-    z-index: 2;
+    z-index: 4;
 }
 
 .ball4 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(247, 247, 249);
     position: absolute;
     top: -200px;
     left: 50%;
@@ -119,7 +124,7 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(253, 253, 255);
     position: absolute;
     top: -200px;
     left: 50%;
@@ -133,7 +138,7 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(251, 251, 252);
     position: absolute;
     top: -200px;
     left: 50%;
@@ -147,7 +152,7 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(248, 248, 250);
     position: absolute;
     top: -200px;
     left: 50%;
@@ -160,7 +165,7 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(248, 248, 249);
     position: absolute;
     top: -200px;
     left: 50%;
@@ -169,6 +174,10 @@ body{
     z-index: 2;
    
 }
+
+
+
+
 
 
 @keyframes ballMovement1 {
@@ -326,3 +335,4 @@ body{
     }
     
 }
+

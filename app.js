@@ -47,10 +47,10 @@
 
 // });
 // پخش صدا هنگام بارگذاری صفحه
-const audio = document.getElementById('myAudio');
-; // تکرار خودکار صدا
+// const audio = document.getElementById('myAudio');
+// ; // تکرار خودکار صدا
 
 
-if (audio.loop == true) {
-    audio.play();
-}
+// if (audio.loop == true) {
+//     audio.play();
+// }
